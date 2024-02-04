@@ -19,7 +19,7 @@ module.exports = (isProduction) => {
     remotes: {
       ...createRemoteEntry('shell', isProduction),
       ...createRemoteEntry('uno', isProduction),
-      ...createRemoteEntry('dos', isProduction),
+      ...createRemoteEntry('login', isProduction),
     },
     shareScope: 'default',
     exposes: {
